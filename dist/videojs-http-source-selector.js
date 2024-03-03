@@ -190,7 +190,7 @@
       var _videojs$obj;
       videojs.registerComponent('SourceMenuButton', SourceMenuButton);
       videojs.registerComponent('SourceMenuItem', SourceMenuItem);
-      const merge = (videojs === null || videojs === void 0 ? void 0 : (_videojs$obj = videojs.obj) === null || _videojs$obj === void 0 ? void 0 : _videojs$obj.merge) || videojs.mergeOptions;
+      const merge = (videojs === null || videojs === void 0 || (_videojs$obj = videojs.obj) === null || _videojs$obj === void 0 ? void 0 : _videojs$obj.merge) || videojs.mergeOptions;
       const settings = merge(defaults, options);
       super(player, settings);
       this.options_ = settings;
